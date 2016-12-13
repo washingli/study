@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-
+# Read a CSV file
 def ReadCSV(paths):
     try:
         brics = pd.read_csv(paths, encoding='utf-8')
